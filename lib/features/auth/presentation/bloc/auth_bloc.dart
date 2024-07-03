@@ -1,5 +1,4 @@
 import 'package:blog_app/core/common/cubits/app_user/app_user_cubit.dart';
-import 'package:blog_app/core/errors/failure.dart';
 import 'package:blog_app/core/usecases/usecase.dart';
 import 'package:blog_app/core/common/entities/user.dart';
 import 'package:blog_app/features/auth/domain/usecases/current_user.dart';
