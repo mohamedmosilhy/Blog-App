@@ -56,6 +56,9 @@ class _SignUpPageState extends State<SignUpPage> {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
+                    const SizedBox(
+                      height: 50,
+                    ),
                     const Text(
                       "Sign Up",
                       style:
