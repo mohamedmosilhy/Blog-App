@@ -51,6 +51,8 @@ class AuthRemoteDataSourceImpl implements AuthRemoteDataSource {
         throw const ServerExceptions("User is null.");
       }
       return UserModel.fromJson(response.user!.toJson()).copyWith();
+    } on AuthException catch (e) {
+      throw ServerExceptions(e.message);
     } catch (e) {
       throw ServerExceptions(e.toString());
     }
@@ -68,6 +70,8 @@ class AuthRemoteDataSourceImpl implements AuthRemoteDataSource {
         throw const ServerExceptions("User is null.");
       }
       return UserModel.fromJson(response.user!.toJson()).copyWith();
+    } on AuthException catch (e) {
+      throw ServerExceptions(e.message);
     } catch (e) {
       throw ServerExceptions(e.toString());
     }
