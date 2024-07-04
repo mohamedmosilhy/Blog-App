@@ -31,24 +31,24 @@ Here are some screenshots of the application:
 
 ### Login Page
 
-![Login Page](screenshots/login_page.png)
+<img src="screenshots/login_page.png" alt="Login Page" width="300" height="500"/>
 
 ### Signup Page
 
-![Signup Page](screenshots/signup_page.png)
+<img src="screenshots/signup_page.png" alt="Signup Page" width="300" height="500"/>
 
 ### Blog List
 
-![Blog List](screenshots/blog_list.png)
+<img src="screenshots/blog_list.png" alt="Blog List" width="300" height="500"/>
 
 ### Create Blog
 
-![Create Blog](screenshots/create_blog_empty.png)
-![Create Blog](screenshots/create_blog.png)
+<img src="screenshots/create_blog_empty.png" alt="Create Blog" width="300" height="500"/>
+<img src="screenshots/create_blog.png" alt="Create Blog" width="300" height="500"/>
 
 ### Blog Detail
 
-![Blog Detail](screenshots/blog_detail.png)
+<img src="screenshots/blog_detail.png" alt="Blog Detail" width="300" height="500"/>
 
 ## Features
 
